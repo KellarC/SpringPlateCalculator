@@ -20,7 +20,7 @@ This is a Spring extension of the same algorithm also on my GitHub. It allows us
 
 ## Usage
 
-1. After running the application, type into your searchbar "localhost:8080/calculate/<weight>" to see a simple text response.
+1. After running the application, type into your searchbar "localhost:8080/calculate/{weight}" to see a simple text response.
 
 ## Contributing
 
