@@ -8,7 +8,7 @@ This is a Spring extension of the same algorithm also on my GitHub. It allows us
 
 ## Features
 
-- Input a desired weight in pounds (lbs)
+- Input a desired weight in pounds (lbs).
 - Exception handling for input less than 45 lbs or not divisible by 5.
 - Calculates the number of weight plates required for each plate size:
   - 45 lbs
@@ -20,7 +20,8 @@ This is a Spring extension of the same algorithm also on my GitHub. It allows us
 
 ## Usage
 
-1. After running the application, type into your searchbar "localhost:8080/calculate/{weight}" to see a simple text response.
+1. After running the application, type into your searchbar "localhost:8080/calculate/{weight}".
+   - localhost:8080/calculate/220
 
 ## Contributing
 
