@@ -11,6 +11,4 @@ public class PlateController {
     public String getResponse(@PathVariable int weight) {
         return Plate.convertToResponse(Plate.getNumberOfPlates(weight));
     }
-
-
 }

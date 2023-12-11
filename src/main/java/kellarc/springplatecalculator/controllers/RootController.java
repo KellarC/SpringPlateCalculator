@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class RootController {
 
-    @RequestMapping(method= RequestMethod.GET, value="/")
+    @GetMapping("/")
     public String index() { return "index.html"; }
 }
