@@ -1,11 +1,11 @@
 package kellarc.springplatecalculator.controllers;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.*;
 
-@RestController
+@Controller
 public class RootController {
 
-    @GetMapping("/")
-    public String index() { return "Hello World!"; }
+    @RequestMapping(method= RequestMethod.GET, value="/")
+    public String index() { return "index.html"; }
 }

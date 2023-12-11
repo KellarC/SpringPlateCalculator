@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weightlifting Plate Calculator</title>
+</head>
+<body>
+    <h1>Get My Plates</h1>
+    <form action="http://localhost:8080/" method="GET" onSubmit="return submitForm()">
+        <label for="weight">Weight:</label>
+        <input type="number" id="weight" name="weight"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+        function submitForm() {
+            location.href="http://localhost:8080/calculate/"+document.getElementById("weight").value;
+            return false;
+        }
+    </script>
+</body>
+</html>
