@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class PlateController {
     @GetMapping("/calculate/{weight}")
     public String getResponse(@PathVariable int weight) {
-        return Plate.convertToResponse(Plate.getNumberOfPlates(weight));
+        return weight + " lbs" +"<br><br>"+ Plate.convertToResponse(Plate.getNumberOfPlates(weight));
     }
 }
