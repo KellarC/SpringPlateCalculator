@@ -13,7 +13,7 @@
     </form>
     <script>
         function submitForm() {
-            location.href="http://localhost:8080/calculate/"+document.getElementById("weight").value;
+            window.open("http://localhost:8080/calculate/"+document.getElementById("weight").value, "_blank");
             return false;
         }
     </script>
