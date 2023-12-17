@@ -20,8 +20,8 @@ This is a Spring extension of the same algorithm also on my GitHub. It allows us
 
 ## Usage
 
-1. After running the application, type into your searchbar "localhost:8080/calculate/{weight}".
-   - Example: "localhost:8080/calculate/220"
+1. After running the application, type into your searchbar "localhost:8080" to reach the root page.
+2. Enter your desired weight into the field and press the submit button.
 
 ## Contributing
 
